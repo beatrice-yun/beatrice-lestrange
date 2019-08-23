@@ -6,16 +6,57 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{title}}</title>
   <link rel="stylesheet" href="/stylesheets/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e522461191.js"></script>
 </head>
 <body>
 
+<div class="navbar">
+  <div class="bea">
+    <h1>{{title}}</h1>
+  </div>
   <nav>
-    <a href="/">Accueil</a>
-    <a href="/projets">Projets</a>
-    <a href="">Blog</a>
+      <div class="nav-item">
+        <a class="item" href="/">Qui est-ce ?</a>
+      </div>
+      <div class="nav-item">
+        <a class="item" href="/projets">Les projets</a>
+      </div>
+      <div class="nav-item">
+        <a class="item" href="https://beatricelestrange.home.blog">Le blog</a>
+      </div>
   </nav>
+  <div class="footer">
+      <div class="sociaux">
+        <div class="phrase">
+          <p class="sociaux-logo" >Qui m'aime me suive, ou pas : </p>
+        </div>
+        <div class="logo-item">
+          <a class="logo" class="sociaux-logo" href="/" >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>        
+        <div class="logo-item">
+          <a class="logo" class="sociaux-logo" href="/" >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>   
+        <div class="logo-item">
+          <a class="logo" class="sociaux-logo" href="/" >
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>         
+      </div>
+  </div>
+</div>
 
-  {{{body}}}
+<div class="content">
+
+  <div class="page">
+    {{{body}}}
+  </div>
+
+</div>
 
   <script src="/javascripts/script.js"></script>
 </body>

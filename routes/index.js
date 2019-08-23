@@ -16,4 +16,9 @@ router.get('/projets', (req, res, next) => {
   res.render('projets');
 });
 
+/* GET credits page */
+router.get('/credits', (req, res, next) => {
+  res.render('credits');
+});
+
 module.exports = router;
